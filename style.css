@@ -1,0 +1,20 @@
+.container.demo {
+    background-color: #054bd1;
+    height: 100vh;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container.demo .row {
+    background-color: #021d51;
+    border-bottom: 1px solid #000;
+}
+
+.container.demo .row>div>span {
+    display: block;
+    background-color: 487bdd;
+    color: white;
+    font-size: 32px;
+    padding: 8px;
+    border: 1px solid #021d51;
+}

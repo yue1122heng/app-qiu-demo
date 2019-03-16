@@ -1,0 +1,14 @@
+{
+  "name": "app-qiu-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "qiuyueheng <946681011@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "start": "./node_modules/.bin/browser-sync start --serve --no-notify --files='index.html, *.css, *.js'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
